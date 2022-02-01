@@ -7,9 +7,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*Elementos base*/
 body{
-background: var(--preto);
-font-family: 'Times New Roman', Times, serif;
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 header .container{
     display: flex;
@@ -29,4 +32,12 @@ header nav a{
 }
 header nav a:hover{
     color:#fff;
+}
+
+/*Filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0.50),rgba(0,0,0.50)100%),url(../img/onb.jpg);
+    height: 400px;
+    background-size: cover;
 }
